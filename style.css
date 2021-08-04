@@ -1,0 +1,128 @@
+* {
+  background-color: #1D1E21;
+}
+
+section{
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+}
+
+body{
+  overflow-x: hidden !important;
+}
+
+h1{
+  font-family: cursive;
+  color: #FFFFFF;
+}
+.all{
+  position: relative;
+  left: 9% !important;
+}
+
+.class{
+  border-radius: 8px;
+  width: 280px;
+  height: 280px;
+  color: black;
+  background-color: #FFFFFF;
+  float: left;
+  line-height: 250px;
+  text-align: center;
+  font-size: 22px
+  display: inline-block;
+  /* padding: 10px; */
+  margin-bottom: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #00FF00;
+}
+
+#imgs{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FF0000;
+  background-size: 100% 100%;
+}
+
+.name{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.class1 > #imgs{
+  background-image: url('imgs/lays.jpg');
+  left: 100%;
+  transition: 2s;
+}
+
+.class1:hover > #imgs{
+  left: 0px;
+}
+
+.class2 > #imgs{
+  background-image: url('imgs/biriyani.jpg');
+  top: 100%;
+  transition: 2s;
+}
+
+.class2:hover > #imgs{
+  top: 0px;
+}
+
+.class3 > #imgs{
+  background-image: url('imgs/noodles.jpg');
+  top: 100%;
+  transition: 2s;
+}
+
+.class3:hover > #imgs{
+  top: 0px;
+}
+
+.class4 > #imgs{
+  background-image: url('imgs/parota.jpg');
+  top: 100%;
+  transition: 2s;
+}
+
+.class4:hover > #imgs{
+  top: 0px;
+}
+
+.class5 > #imgs{
+  background-image: url('imgs/beef.jpg');
+  left: 100%;
+  transition: 2s;
+}
+
+.class5:hover > #imgs{
+  left: 0px;
+}
+
+.class6 > #imgs{
+  background-image: url('imgs/chicken.jpg');
+  top: 100%;
+  transition: 2s;
+}
+
+.class6:hover > #imgs{
+  top: 0px;
+}
+
+#foot{
+  position: relative;
+  text-align: center;
+}
