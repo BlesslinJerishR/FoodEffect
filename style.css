@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif !important;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
 * {
   background-color: #1D1E21;
 }
@@ -14,17 +30,23 @@ body{
 }
 
 h1{
-  font-family: cursive;
+  font-size: 30px;
   color: #FFFFFF;
+}
+
+h2{
+  text-align: center;
+  background-color: transparent;
+  font-size: 27px;
 }
 .all{
   position: relative;
-  left: 9% !important;
+  left: 6% !important;
 }
 
 .class{
   border-radius: 8px;
-  width: 280px;
+  width: 300px;
   height: 280px;
   color: black;
   background-color: #FFFFFF;
@@ -51,7 +73,7 @@ h1{
   height: 100%;
   width: 100%;
   background-color: #FF0000;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .name{
@@ -84,12 +106,12 @@ h1{
 
 .class3 > #imgs{
   background-image: url('imgs/noodles.jpg');
-  top: 100%;
+  left: 100%;
   transition: 2s;
 }
 
 .class3:hover > #imgs{
-  top: 0px;
+  left: 0px;
 }
 
 .class4 > #imgs{
