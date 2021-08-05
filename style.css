@@ -66,7 +66,7 @@ h2{
 
 .centers{
   position: relative;
-  left: 440px;
+  padding-left: 35%;
 }
 #imgs{
   position: absolute;
