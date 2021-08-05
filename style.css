@@ -64,6 +64,10 @@ h2{
   border: 3px solid #00FF00;
 }
 
+.centers{
+  position: relative;
+  left: 440px;
+}
 #imgs{
   position: absolute;
   top: 0;
